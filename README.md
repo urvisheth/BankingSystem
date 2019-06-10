@@ -11,15 +11,25 @@ Administrator or Maintenance is a secondary role for the system, that do not mak
 
 ## Technology Used:
 HTML
+
 CSS
+
 Bootstrap
+
 JavaScript
+
 Ajax
+
 Java
+
 JSP
+
 Servlets
+
 Java Beans
+
 MySQL
+
 MongoDB
 
 ## BANKING SYSTEM (Chicago Bank) User Document:
