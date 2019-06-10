@@ -9,7 +9,7 @@ Banker can add,update or delete a Customer, can approve credit/debit money for c
 
 Administrator or Maintenance is a secondary role for the system, that do not make a difference to the main system, but it take care of the functionality problem registered by other two users
 
-Technology Used:
+## Technology Used:
 HTML
 CSS
 Bootstrap
@@ -22,11 +22,8 @@ Java Beans
 MySQL
 MongoDB
 
+## BANKING SYSTEM (Chicago Bank) User Document:
 
-______________________________________________________________________________
-
-BANKING SYSTEM (Chicago Bank) User Document:
-______________________________________________________________________________
 
 Instructions on show how to deploy and run the bank project:
 
@@ -36,73 +33,67 @@ Instructions on show how to deploy and run the bank project:
 	4. Start the MongoDB server with mongo.exe and mongod.exe with database name as complaint and collection name as complaintStored.
 	5. In order to start the application open the browser and type http://localhost/BankingSystem1/ or http://localhost/BankingSystem1/Home.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-Note:
+## Note:
 
 To compile Java files, use this command:
 javac *.java
 
 If in case it doesn't work then, use the following cmd:
 
-javac -cp "C:/tommy/tomcat-7.0.34-preconfigured/apache-tomcat-7.0.34/lib/mongo-java-driver-3.2.2.jar;C:\tommy\tomcat-7.0.34-preconfigured\apache-tomcat-7.0.34\lib\servlet-api.jar;C:\tommy\tomcat-7.0.34-preconfigured\apache-tomcat-7.0.34\lib\mysql-connector-java-5.1.23-bin.jar;C:\tommy\tomcat-7.0.34-preconfigured\apache-tomcat-7.0.34\lib\gson-2.6.2.jar;" *.java
+javac -cp "path-to-mogodriver;path-toservelt-api;path-to-mysql-connector-java-5.1.23-bin.jar;path-to-gson-2.6.2.jar;" *.java
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
-Role Information
-______________________________________________________________________________
+
+## Role Information
+
 There are three ROLES:
 a. Customer
 b. Banker
 c. Administrator
-______________________________________________________________________________
 
-a.) Customer:
-______________________________________________________________________________
+### Customer:
+
 For testing purposes you can give as:
 User Name: Adi
 Password:  yaji
 
 Customer can,
 
-1.> Funds Transfer Within Bank 
-2.> Funds Transfer to Other Bank 
-3.> Register a Complaint 
-4.> View Complaints' status 
-5.> View Transactions 
-6.> Change User Credentials 
-5.> Log out
+	1. Funds Transfer Within Bank 
+	2. Funds Transfer to Other Bank 
+	3. Register a Complaint 
+	4. View Complaints' status 
+	5. View Transactions 
+	6. Change User Credentials 
+	5. Log out
 
-_________________________________________________________________________________
-
-b.) Banker:
-__________________________________________________________________________________
+### Banker:
 User Name: banker
 Password:  urvi
 
 
 Banker can,
 
-1.> Create New customer 
-2.> Update a Customer 
-3.> Delete a Customer 
-4.> Register a Complaint 
-5.> View Complaints' status 
-6.> Add Customer Transactions 
-7.> View all customer Transactions 
-8.> Money Transfer Request 
-9.> Change User Credentials 
-10> Log out
+	1. Create New customer 
+	2. Update a Customer 
+	3. Delete a Customer 
+	4. Register a Complaint 
+	5. View Complaints' status 
+	6. Add Customer Transactions 
+	7. View all customer Transactions 
+	8. Money Transfer Request 
+	9. Change User Credentials 
+	10. Log out
 
-___________________________________________________________________________________
 
-c.) Administrator:
-___________________________________________________________________________________
+### Administrator:
+
 User Name: admin
 Password:  admin
 
 Admin can,
 
-1.> View all the complaints registered.
-2.> Able to change the status of the complaints.
+	1. View all the complaints registered.
+	2. Able to change the status of the complaints.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+This project was made in collbration with **Megha Tatti** and **Aditya Yaji** as the submission for the subject **Enterprise Web Application**
