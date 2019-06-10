@@ -1,7 +1,7 @@
 # BankingSystem
 Banking System is a web application that will allow user to do all banking operations online
 
-There would be two main roles, Banker and Customer
+There would be two main roles, **Banker and Customer**
 
 This application will allow Customer to perform basic actions like creating an account, update information, internal fund transfer, money transfer to another merchant and can register complaint to administrator
 
@@ -53,7 +53,9 @@ c. Administrator
 ### Customer:
 
 For testing purposes you can give as:
+
 User Name: Adi
+
 Password:  yaji
 
 Customer can,
@@ -67,7 +69,9 @@ Customer can,
 	5. Log out
 
 ### Banker:
+
 User Name: banker
+
 Password:  urvi
 
 
@@ -88,6 +92,7 @@ Banker can,
 ### Administrator:
 
 User Name: admin
+
 Password:  admin
 
 Admin can,
@@ -96,4 +101,4 @@ Admin can,
 	2. Able to change the status of the complaints.
 
 
-This project was made in collbration with **Megha Tatti** and **Aditya Yaji** as the submission for the subject **Enterprise Web Application**
+This project was made in collbration with **Megha Tatti** and **Aditya Yaji** as the submission for the subject **Enterprise Web Application** Here in folder attached code for the system and a dummy sql file for testing purposes.
